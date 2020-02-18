@@ -1,0 +1,153 @@
+html,
+body {
+  font-size: 16px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  color: #222222;
+
+  background-color: #181818;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+.container {
+  width: 90%;
+  min-width: 1024px;
+  margin: 30px auto;
+
+  background-color: #f3f3f3;
+}
+
+.clear {
+  clear: both;
+}
+
+section:first-child {
+  border-top: 0;
+}
+
+section:last-child {
+  padding: 20px 0 10px;
+}
+
+section {
+  border-top: 1px solid #dedede;
+  padding: 20px 0 0;
+}
+
+.header {
+  padding: 15px 15px;
+
+  border-bottom: 2px solid #cf8a05;
+  background-color: #ededed;
+}
+
+.hero__img {
+  float: left;
+
+  width: 12.5%;
+  margin-right: 30px;
+}
+
+.hero__img img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.hero__description {
+  float: left;
+}
+
+.header__contacts {
+  float: right;
+}
+
+.description__title h1 {
+  margin-bottom: -6px;
+
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 700;
+  font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+.description__title h2 {
+  margin-left: 2px;
+
+  font-size: 2em;
+  line-height: 1.5rem;
+  font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+.contacts__list,
+.works__list {
+  margin-top: 2px;
+
+  list-style: none;
+
+  font-size: 0.9em;
+}
+
+.contacts__item,
+.works__item {
+  margin-bottom: 3px;
+}
+
+.contacts__link,
+.works__link {
+  text-decoration: none;
+  color: #444444;
+}
+
+.works__link {
+  text-decoration: underline;
+}
+
+.works__link:hover {
+  text-decoration: none;
+}
+
+.main {
+  padding: 0 40px;
+}
+
+.section__title {
+  float: left;
+
+  width: 25%;
+}
+
+.section__title h1 {
+  font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #cf8a05;
+}
+
+.section__content {
+  float: right;
+
+  width: 72.5%;
+}
+
+.section__content p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 20px;
+  color: #444444;
+}
+
+.skills__list {
+  list-style-type: none;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #444444;
+}

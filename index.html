@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML CSS & Git Basics</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <header class="header">
+        <div class="hero__img">
+          <img src="img/hero.png" alt="Ramankou Yauheni">
+        </div>
+        <div class="hero__description">
+          <div class="description__title">
+            <h1>Yauheni Ramankou</h1>
+          </div>
+          <div class="description__info">
+            <h2>Junior Frontend Developer</h2>
+          </div>
+        </div>
+        <div class="header__contacts">
+          <ul class="contacts__list">
+            <li class="contacts__item">e:
+              <a href="#" class="contacts__link">iromankov2010@gmail.com</a>
+            </li>
+            <li class="contacts-item">m:
+              <a href="#" class="contacts__link">+375(44)730-94-50</a>
+            </li>
+            <li class="contacts-item">s:
+              <a href="#" class="contacts__link">evgeni_romankov</a>
+            </li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </header>
+      <main class="main">
+        <section class="section__summary">
+          <article>
+            <div class="section__title">
+              <h1>Summary</h1>
+            </div>
+            <div class="section__content">
+              <p>
+                My main goals today is a start career as a junior front-end developer and after 5 years grow up to lead developer. it’s important for me to be concentrated on learning process. I would like to reveal my potential in programming, time managment, get some speaking experience.
+              </p>
+            </div>
+          </article>
+          <div class="clear"></div>
+        </section>
+        <section class="section__skills">
+          <article>
+            <div class="section__title">
+              <h1>Skills</h1>
+            </div>
+            <div class="section__content">
+              <ul class="skills__list">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS</li>
+                <li class="skills__item">JavaScript</li>
+                <li class="skills__item">PHP</li>
+                <li class="skills__item">SQL</li>
+                <li class="skills__item">Python</li>
+                <li class="skills__item">Sass</li>
+                <li class="skills__item">Pug</li>
+                <li class="skills__item">Photoshop</li>
+                <li class="skills__item">Zeplin</li>
+                <li class="skills__item">Figma</li>
+                <li class="skills__item">Gulp</li>
+                <li class="skills__item">Webpack</li>
+              </ul>
+            </div>
+          </article>
+          <div class="clear"></div>
+        </section>
+        <section class="section__code-example">
+          <article>
+            <div class="section__title">
+              <h1>Code example</h1>
+            </div>
+            <div class="section__content">
+              <pre>
+function getLoveTrianglesCount(preferences = []) {
+  let count = 0;
+  let arrLength = preferences.length;
+
+  for (let i = 0; i < arrLength; i++) {
+    let firstSpichonee = preferences[i],
+    firstSpichoneePosition = i + 1,
+    thirdSpichoneePosition = firstSpichonee,
+    thirdSpichonee = preferences[firstSpichonee - 1],
+    secondSpichoneePosition = thirdSpichonee,
+    secondSpichonee = firstSpichoneePosition;
+
+    if (preferences[secondSpichoneePosition - 1] === secondSpichonee &&
+        preferences[thirdSpichoneePosition - 1] === thirdSpichonee) {
+        count++;
+    }
+
+  }
+  return Math.floor(count / 3);
+}
+              </pre>
+            </div>
+          </article>
+          <div class="clear"></div>
+        </section>
+        <section class="section__experience">
+          <article>
+            <div class="section__title">
+              <h1>Experience</h1>
+            </div>
+            <div class="section__content">
+              <ul class="works__list">
+                <li class="works__item">
+                  <a href="https://mrchester.github.io/projects/myPortfolio/" class="works__link" target="_blank">Portfolio</a>
+                </li>
+                <li class="works__item">
+                  <a href="https://mrchester.github.io/projects/hipsweet/" class="works__link" target="_blank">Hipsweet</a>
+                </li>
+                <li class="works__item">
+                  <a href="https://mrchester.github.io/projects/accordionDomEvents/" class="works__link" target="_blank">Accordion</a>
+                </li>
+                <li class="works__item">
+                  <a href="https://mrchester.github.io/restaurant/" class="works__link" target="_blank">Restaurant</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <div class="clear"></div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
