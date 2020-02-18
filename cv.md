@@ -103,3 +103,11 @@ function getLoveTrianglesCount(preferences = []) {
 </pre>
 
 </details>
+<details>
+<summary> The Rolling Scopes School</summary>
+
+<pre>
+  <a href="https://mrchester.github.io/restaurant/" target="_blank">Restaurant</a>
+</pre>
+
+</details>
