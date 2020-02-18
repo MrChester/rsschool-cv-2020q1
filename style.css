@@ -1,0 +1,39 @@
+html,
+body {
+  font-size: 16px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  color: #222222;
+
+  background-color: #181818;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+.container {
+  width: 90%;
+  min-width: 1024px;
+  margin: 30px auto;
+
+  background-color: #f3f3f3;
+}
+
+.clear {
+    clear: both;
+}
+
+section:first-child {
+    border-top: 0;
+}
+
+section:last-child {
+    padding: 20px 0 10px;
+}
+
+section {
+    border-top: 1px solid #dedede;
+    padding: 20px 0 0;
+}
