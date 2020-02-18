@@ -111,3 +111,29 @@ function getLoveTrianglesCount(preferences = []) {
 </pre>
 
 </details>
+
+##### 7. Education
+<details>
+<summary>Minsk College of Economics and Finance</summary>
+
+<pre>
+  2008-2011 - Tax and taxation(incomplete)
+</pre>
+
+</details>
+<details>
+<summary>LoftSchool</summary>
+
+<pre>
+  2016 - Web for beginners
+</pre>
+
+</details>
+<details>
+<summary>Html academy & Codecademy</summary>
+
+<pre>
+  HTML and CSS basics
+</pre>
+
+</details>
