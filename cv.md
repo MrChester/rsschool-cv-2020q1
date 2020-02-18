@@ -137,3 +137,6 @@ function getLoveTrianglesCount(preferences = []) {
 </pre>
 
 </details>
+
+##### 8. English
+* Elementary(A1)
