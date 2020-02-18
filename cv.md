@@ -91,3 +91,15 @@ function getLoveTrianglesCount(preferences = []) {
 }
 </pre>
 </details>
+
+##### 6. Experience
+<details>
+<summary>LoftSchool</summary>
+
+<pre>
+  <a href="https://mrchester.github.io/projects/myPortfolio" target="_blank">Portfolio</a>
+  <a href="https://mrchester.github.io/projects/hipsweet" target="_blank">Hipsweet</a>
+  <a href="https://mrchester.github.io/projects/accordionDomEvents" target="_blank">Accordion</a>
+</pre>
+
+</details>
