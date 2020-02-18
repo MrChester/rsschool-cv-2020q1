@@ -11,6 +11,58 @@
 ##### 3. Summary
 My main goals today is a start career as a junior front-end developer and after 5 years grow up to lead developer. it's important for me to be concentrated on learning process. I would like to reveal my potential in programming, time managment, get some speaking experience.
 
+##### 4. Skills
+> Skill levels: Beginner, Elementary, Pre-Intermediate, Intermediate, Upper Intermediate, Advanced
+
+<details>
+<summary>Languages</summary>
+
+<pre>
+  HTML(Pre-Intermediate)
+  CSS(Pre-Intermediate)
+  JavaScript(Pre-Intermediate)
+  PHP(Beginner)
+  SQL(Beginner)
+  Python(Elementary)
+</pre>
+
+</details>
+<details>
+<summary>Prepocessors</summary>
+
+<pre>
+  Sass(Pre-Intermediate)
+  Pug(Pre-Intermediate)
+</pre>
+
+</details>
+<details>
+<summary>Graphics</summary>
+
+<pre>
+  Photoshop(Pre-Intermediate)
+  Figma(Pre-Intermediate)
+  Zeplin(Pre-Intermediate)
+</pre>
+
+</details>
+<details>
+<summary>Task-runners</summary>
+
+<pre>
+  Gulp(Pre-Intermediate)
+</pre>
+
+</details>
+<details>
+<summary>Bundlers</summary>
+
+<pre>
+  Webpack(Elementary)
+</pre>
+
+</details>
+
 ##### 5. Code examples
 <details>
 <summary>Expand this for more information</summary>
