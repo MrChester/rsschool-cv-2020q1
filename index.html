@@ -76,6 +76,38 @@
           </article>
           <div class="clear"></div>
         </section>
+        <section class="section__code-example">
+          <article>
+            <div class="section__title">
+              <h1>Code example</h1>
+            </div>
+            <div class="section__content">
+              <pre>
+function getLoveTrianglesCount(preferences = []) {
+  let count = 0;
+  let arrLength = preferences.length;
+
+  for (let i = 0; i < arrLength; i++) {
+    let firstSpichonee = preferences[i],
+    firstSpichoneePosition = i + 1,
+    thirdSpichoneePosition = firstSpichonee,
+    thirdSpichonee = preferences[firstSpichonee - 1],
+    secondSpichoneePosition = thirdSpichonee,
+    secondSpichonee = firstSpichoneePosition;
+
+    if (preferences[secondSpichoneePosition - 1] === secondSpichonee &&
+        preferences[thirdSpichoneePosition - 1] === thirdSpichonee) {
+        count++;
+    }
+
+  }
+  return Math.floor(count / 3);
+}
+              </pre>
+            </div>
+          </article>
+          <div class="clear"></div>
+        </section>
       </main>
     </div>
   </div>
